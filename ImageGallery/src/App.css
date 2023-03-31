@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img{
+  display: block;
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+
+}
+.App {
+  background-image:url("https://data.pixiz.com/output/user/frame/preview/400x400/8/0/2/5/2295208_aacc2.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  margin: auto;
+  width: 100%;
+  /* max-width: 540px; */
+
+}
+
+.container > .cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 35px;
+  width: 70%;
+  transform: translate(28%,25px);
+}
+.container > h1 {
+  text-align: center;
+  color: #fff;
+}
+.card {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+.container .arama {
+  text-align: center;
+  margin-top: 20px;
+}
+.container .arama>input {
+  width: 500px;
+  height: 35px;
+  outline: none;
+  border: 2px solid black;
+  font-size: large;
+  font-weight: 700;
+  padding: 10px;
+  transition: 1s;
+}
+.container .arama>input:focus {
+  border: 2px solid orange;
+}
+.card1 {
+  border: 6px groove rgb(184, 126, 126);
+  width: 350px;
+  margin-left: 36%;
+  text-align: center;
+  padding: 15px;
+  background-color: #fff;
+}
+.card1>img{
+  object-fit: cover;
+  margin-left: 25px;
+}
+.card h1 {
+  text-align: center;
+  background-color: #fff;
+}
+.card h3 {
+  color: gray;
+}
+.card img {
+  border-radius: 10px 10px 0 0;
+  margin-left: 15px;
+}
